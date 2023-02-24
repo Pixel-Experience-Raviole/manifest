@@ -12,9 +12,13 @@
           fetch="https://gitlab.com" />
 
   <remote name="pe-raviole"
-          fetch="https://github.com/Pixel-Experience-Raviole"
+          fetch="https://github.com/PixelExperience-Raviole"
           revision="thirteen" />
-
+ 
+  <remote name="pe-raviole-gitlab"
+          fetch="https://gitlab.com/pixelexperience-raviole"
+          revision="thirteen" />
+  
   <default revision="refs/tags/android-13.0.0_r30"
            remote="aosp"
            sync-j="4"
@@ -1204,5 +1208,6 @@
   <include name="snippets/pixel.xml" />
   <include name="snippets/pixel-extras.xml" />
   <include name="snippets/pixel-caf.xml" />
+  <include name="snippets/pixel-tensor.xml" />
 
 </manifest>
