@@ -11,6 +11,10 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
+  <remote name="pe-raviole"
+          fetch="https://github.com/Pixel-Experience-Raviole"
+          revision="thirteen" />
+
   <default revision="refs/tags/android-13.0.0_r30"
            remote="aosp"
            sync-j="4"
